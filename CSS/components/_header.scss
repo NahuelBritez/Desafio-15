@@ -1,0 +1,43 @@
+@import"../base/variables";
+
+header{
+    
+    background-color:nth($color,1 );
+    position: sticky;
+    top: 0px;
+    z-index:1;
+
+    // Menu
+    .menu{
+        display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 50px;
+    //Logo
+    .logo{
+        text-decoration: none;
+        font-size: 50px;
+        color: nth($color,4);
+        font-family: $fuenteTitulos;
+        margin-left: 30px;
+    }
+     //Botones
+     .navBoton{
+        text-decoration: none;
+        color: nth($color,4);
+        font-family: $fuenteParrafos;
+        margin: 10px;
+        font-size: 20px;
+        padding: 4px;
+        display: inline-block;
+        transition: all 0.2s ease-in-out;
+     }
+
+     .navBoton:hover{
+        background-color: nth($color,3);
+        border-radius: 7px;
+        transform: scale(1.05);  
+     }
+    }
+}

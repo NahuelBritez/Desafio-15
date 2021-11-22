@@ -1,0 +1,19 @@
+//Trabajos
+@import"../base/variables";
+
+#nuestrosTrabajos{
+    background-color: nth($color,2);
+    padding: 100px;
+
+    h2{
+        display: block;
+        text-align: center;
+        margin-bottom: 50px;
+        font-size: 50px;
+        font-family: $fuenteTitulos;
+    }
+
+     p{
+        font-family: $fuenteParrafos;
+    }
+}

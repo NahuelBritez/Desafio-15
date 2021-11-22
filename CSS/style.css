@@ -1,0 +1,228 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+#contacto textarea {
+  min-height: 100px;
+  max-height: 100px;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+header {
+  background-color: #E9D2CD;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+header .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 50px;
+}
+
+header .menu .logo {
+  text-decoration: none;
+  font-size: 50px;
+  color: #000000;
+  font-family: "Andada Pro", serif;
+  margin-left: 30px;
+}
+
+header .menu .navBoton {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Hind Siliguri", sans-serif;
+  margin: 10px;
+  font-size: 20px;
+  padding: 4px;
+  display: inline-block;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+header .menu .navBoton:hover {
+  background-color: #EFBDB2;
+  border-radius: 7px;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+#quienesSomos {
+  padding: 100px;
+  background-color: #FAF5F4;
+}
+
+#quienesSomos h1 {
+  padding-left: 125px;
+  font-size: 39px;
+  font-family: "Andada Pro", serif;
+}
+
+#quienesSomos p {
+  padding-left: 125px;
+  font-size: 16px;
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+#quienesSomos .imgCarousel {
+  width: 300px;
+  height: 250px;
+}
+
+#nuestroEquipo {
+  padding: 100px;
+  background-color: #FAF5F4;
+}
+
+#nuestroEquipo h3 {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  font-size: 50px;
+  font-family: "Andada Pro", serif;
+}
+
+#nuestroEquipo .equipo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#nuestroEquipo .equipo img {
+  width: 300px;
+  height: 400px;
+  border-radius: 3px;
+}
+
+#nuestroEquipo .nombres {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 30px;
+}
+
+#nuestroEquipo .nombres p {
+  font-size: 30px;
+}
+
+#nuestrosTrabajos {
+  background-color: #FAF5F4;
+  padding: 100px;
+}
+
+#nuestrosTrabajos h2 {
+  display: block;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 50px;
+  font-family: "Andada Pro", serif;
+}
+
+#nuestrosTrabajos p {
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+#contacto textarea {
+  min-height: 100px;
+  max-height: 100px;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+#contacto {
+  padding: 20px;
+  background: #FAF5F4;
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+#contacto form {
+  width: 450px;
+  margin: auto;
+  padding: 10px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+#contacto form h4 {
+  color: #000000;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+#contacto input, #contacto textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#contacto .boton {
+  background: #E9D2CD;
+  color: #000000;
+  padding: 20px 187px;
+  border: none;
+}
+
+#contacto .boton:hover {
+  cursor: pointer;
+  background-color: #EFBDB2;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.footer {
+  background-color: #E9D2CD;
+  padding-bottom: 1px;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+.footer h4 {
+  padding-left: 30px;
+}
+
+.footer h4 {
+  font-family: "Andada Pro", serif;
+  text-decoration: underline;
+}
+
+.footer ul li {
+  list-style: none;
+}
+/*# sourceMappingURL=style.css.map */

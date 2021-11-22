@@ -1,0 +1,51 @@
+//Contacto
+@import"../base/variables";
+@import"../base/extends";
+
+#contacto{
+    padding: 20px;
+    background:nth($color,2);
+    font-family: $fuenteParrafos;
+
+     form{
+        width: 450px;
+        margin: auto;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        margin-top: 20px;
+        border-radius: 20px;    
+    }
+
+    form h4{
+        color:nth($color,4);
+        text-align: center;
+        margin: 0;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+   input,textarea{
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: border-box;
+    }
+
+     textarea{
+       @extend %textarea;
+    }
+
+    .boton{
+        background:nth($color,1);
+        color:nth($color,4);
+        padding: 20px 187px;
+        border: none;
+    }
+
+    .boton:hover{
+        cursor: pointer;
+        background-color: nth($color,3);
+        transition: 0.5s;
+    }
+
+}

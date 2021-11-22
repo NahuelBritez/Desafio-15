@@ -1,0 +1,27 @@
+//Footer
+@import"../base/variables";
+
+.footer{
+    background-color: nth($color,1);
+    padding-bottom: 1px;
+
+     ul li  a{
+        text-decoration: none;
+        color: nth($color,4);
+        font-family: $fuenteParrafos;
+    }
+
+     h4{
+        padding-left: 30px;
+    }
+
+     h4{
+        font-family: $fuenteTitulos;
+        text-decoration: underline;
+    }
+
+     ul li{
+        list-style: none;
+    }
+}
+

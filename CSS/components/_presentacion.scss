@@ -1,0 +1,25 @@
+//Presentación
+@import"../base/variables";
+
+#quienesSomos{
+    padding: 100px;
+    background-color: nth($color,2);
+     //Titulo
+   h1{
+        padding-left: 125px;
+        font-size: 39px;
+        font-family: $fuenteTitulos;
+    }
+
+    //Parrafo
+     p{
+        padding-left: 125px;
+        font-size: 16px;
+        font-family: $fuenteParrafos;
+    }
+     //Carousel
+    .imgCarousel{
+        width: 300px;
+        height: 250px;
+    }
+}

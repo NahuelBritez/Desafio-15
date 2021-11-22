@@ -1,0 +1,41 @@
+//Equipo
+@import "../base/variables";
+
+#nuestroEquipo{
+    padding: 100px;
+    background-color: nth($color,2);
+
+     h3{
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 0px;
+        font-size: 50px;
+        font-family: $fuenteTitulos;
+    }
+
+    .equipo{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .equipo img{
+        width: 300px;
+        height: 400px;
+        border-radius: 3px;
+    }
+
+    .nombres{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+
+    .nombres p{
+        font-size: 30px;
+    }
+
+
+}
