@@ -13,11 +13,12 @@ header{
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    height: 50px;
+    height: 60px;
+
     //Logo
     .logo{
         text-decoration: none;
-        font-size: 50px;
+        font-size: 45px;
         color: nth($color,4);
         font-family: $fuenteTitulos;
         margin-left: 30px;

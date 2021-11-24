@@ -33,12 +33,12 @@ header .menu {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  height: 50px;
+  height: 60px;
 }
 
 header .menu .logo {
   text-decoration: none;
-  font-size: 50px;
+  font-size: 45px;
   color: #000000;
   font-family: "Andada Pro", serif;
   margin-left: 30px;
@@ -95,7 +95,7 @@ header .menu .navBoton:hover {
   text-align: center;
   margin-bottom: 10px;
   margin-top: 0px;
-  font-size: 50px;
+  font-size: 45px;
   font-family: "Andada Pro", serif;
 }
 
@@ -186,12 +186,13 @@ header .menu .navBoton:hover {
   padding: 7px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  border: none;
 }
 
 #contacto .boton {
   background: #E9D2CD;
   color: #000000;
-  padding: 20px 187px;
+  padding: 10px 187px;
   border: none;
 }
 
