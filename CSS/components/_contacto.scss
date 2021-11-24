@@ -29,6 +29,7 @@
         margin-bottom: 20px;
         padding: 7px;
         box-sizing: border-box;
+        border: none;
     }
 
      textarea{
@@ -38,7 +39,7 @@
     .boton{
         background:nth($color,1);
         color:nth($color,4);
-        padding: 20px 187px;
+        padding: 10px 187px;
         border: none;
     }
 

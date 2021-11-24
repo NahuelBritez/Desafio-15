@@ -186,12 +186,13 @@ header .menu .navBoton:hover {
   padding: 7px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  border: none;
 }
 
 #contacto .boton {
   background: #E9D2CD;
   color: #000000;
-  padding: 20px 187px;
+  padding: 10px 187px;
   border: none;
 }
 
